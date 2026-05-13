@@ -1,0 +1,11 @@
+import pandas as pd
+m=pd.read_csv('data/processed/walkforward_improved_metrics.csv')
+print('folds',len(m))
+print('mean_acc',m['acc'].mean())
+print('mean_auc',m['auc'].mean())
+print('mean_bacc',m['bacc'].mean())
+print('\nsummary_stats = {')
+print("  'mean_acc':",m['acc'].mean())
+print("  'mean_auc':",m['auc'].mean())
+print("  'mean_bacc':",m['bacc'].mean())
+print('}')

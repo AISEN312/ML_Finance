@@ -1,0 +1,15 @@
+{
+  "start_date": "2022-05-04",
+  "end_date": "2025-12-02",
+  "observations": 887,
+  "threshold": 0.5,
+  "transaction_cost_bps": 10.0,
+  "total_return": -0.17415446427163317,
+  "benchmark_return": 0.5581378980577254,
+  "excess_return": -0.7322923623293586,
+  "sharpe_ratio": -0.4808795774809909,
+  "win_rate": 0.2897406989853439,
+  "max_drawdown": -0.19960930489043271,
+  "traded_days": 509,
+  "turnover": 184.0
+}
